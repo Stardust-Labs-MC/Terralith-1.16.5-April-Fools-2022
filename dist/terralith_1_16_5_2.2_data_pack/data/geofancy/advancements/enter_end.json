@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sponge"
+    },
+    "title": "\u266a Brazil Man \u266b",
+    "description": "A tale to be told",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "minecraft:brazil_man"
+    ]
+  }
+}

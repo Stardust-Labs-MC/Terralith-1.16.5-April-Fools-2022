@@ -1,0 +1,26 @@
+name: Terralith (1.16.5)
+version: '2.2'
+author: stardust-mute
+description: Terralith for Minecraft 1.16.5 [Beta]
+
+data_pack:
+  load: [src]
+  zipped: true
+
+output: 'dist'
+
+require:
+  - mecha.contrib.bolt
+
+pipeline:
+  - mecha
+  - plugins.remove_empty_files
+  - beet.contrib.scoreboard
+
+meta:
+  mecha:
+    version: 1.16
+
+  generate_namespace: 'geofancy'
+  scoreboard:
+    function: 'generate_objectives'
