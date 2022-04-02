@@ -1,3 +1,4 @@
 .DS_Store
 dist/
 .beet_cache
+__pycache__
